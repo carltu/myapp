@@ -4,6 +4,6 @@ dist
 .sass-cache
 bower_components
 platforms/**/
-www
+www/*
 !www/config.xml
 !www/res
