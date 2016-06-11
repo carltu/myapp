@@ -1,0 +1,27 @@
+<p>This is the about view.</p>
+
+<div>
+	<span class="glyphicon glyphicon-camera myapp-camera" ng-click="takePicture()"></span>
+	<div class="hs-scan-protect-info-label">Multiple pictures can be taken</div>
+  	<div class="hs-scan-protect-info-label">{{scan.protectImageCount}} picture(s) attached</div>
+</div>
+<div>
+	<img id="myImage">		
+	<i class="fa fa-check-square" aria-hidden="true"></i>
+</div>
+
+<br/>
+<label class="col-sm-3 control-label">Default</label>
+<div class="col-sm-3">
+
+<ui-select ng-model="selected.value" on-select="someFunction($item)">
+    <ui-select-match>
+        <span ng-bind-html="$select.selected.name"></span>
+    </ui-select-match>
+    <ui-select-choices repeat="item in (itemArray | filter: $select.search) track by item.id">
+        <span ng-bind-html="item.name"></span>
+    </ui-select-choices>
+</ui-select>
+
+</div>
+<br/>

@@ -1,0 +1,11 @@
+<div ng-controller="TestCtrl">
+    <div id="columns" class="row seven-cols">
+        <div class="col-sm-1 col-xs-1"
+             ng-repeat="column in columns"
+             data-columnindex="{{$index}}" id="column{{$index}}">
+            <div class="column">
+                hello carl {{$index}}
+            </div>
+        </div>
+    </div>
+</div>

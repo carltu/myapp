@@ -1,0 +1,42 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-app-version": {
+            "PACKAGE_NAME": "com.carl.myapp"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.carl.myapp"
+        },
+        "cordova.plugins.diagnostic": {
+            "PACKAGE_NAME": "com.carl.myapp"
+        },
+        "org.apache.cordova.device": {
+            "PACKAGE_NAME": "com.carl.myapp"
+        },
+        "org.apache.cordova.dialogs": {
+            "PACKAGE_NAME": "com.carl.myapp"
+        },
+        "org.apache.cordova.file": {
+            "PACKAGE_NAME": "com.carl.myapp"
+        },
+        "org.apache.cordova.file-transfer": {
+            "PACKAGE_NAME": "com.carl.myapp"
+        },
+        "org.apache.cordova.inappbrowser": {
+            "PACKAGE_NAME": "com.carl.myapp"
+        },
+        "org.apache.cordova.network-information": {
+            "PACKAGE_NAME": "com.carl.myapp"
+        },
+        "org.apache.cordova.statusbar": {
+            "PACKAGE_NAME": "com.carl.myapp"
+        }
+    },
+    "dependent_plugins": {}
+}
