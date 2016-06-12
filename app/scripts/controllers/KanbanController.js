@@ -55,7 +55,7 @@ angular.module('myappApp').controller('KanbanController', ['$scope', 'BoardServi
 
     },
     orderChanged: function (event) {
-      //do some changes
+      //test git commit
     },
     containment: '#board'
   };
