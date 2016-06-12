@@ -42,6 +42,10 @@ angular
         templateUrl: 'views/test.html', 
         controller: 'TestCtrl'
       })
+      .when('/test3', {
+        templateUrl: 'views/test3.html', 
+        controller: 'TestCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
