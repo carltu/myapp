@@ -22,6 +22,7 @@ angular.module('myappApp')
       PROTECT: 3
     };
 
+  //new test
   // add new changes now
   //just want to see what happens in github
 	$scope.takePicture = function() {
