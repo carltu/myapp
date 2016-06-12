@@ -4,7 +4,6 @@
 
 'use strict';
 
-//make 3 changes
 angular.module('myappApp').controller('NewCardController', ['$scope', '$modalInstance', 'column', function ($scope, $modalInstance, column) {
 
   function initScope(scope) {

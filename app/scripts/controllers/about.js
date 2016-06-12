@@ -15,7 +15,6 @@ angular.module('myappApp')
       'Karma'
     ];
 
-    //make 3 changes
     /*comment*/
     $scope.imageTypeEnum = {
       MODEL: 1,

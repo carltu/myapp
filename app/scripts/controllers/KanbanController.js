@@ -29,7 +29,6 @@ angular.module('myappApp').controller('KanbanController', ['$scope', 'BoardServi
   
       //console.log(event.source.itemScope.modelValue);
 
-      //make 3 changes
       var moveSuccess, moveFailure;
 
       /**
