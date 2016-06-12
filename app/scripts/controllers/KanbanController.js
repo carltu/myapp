@@ -27,6 +27,7 @@ angular.module('myappApp').controller('KanbanController', ['$scope', 'BoardServi
                     ' To ' + event.dest.sortableScope.$parent.column.name);
       
   
+      // add new changes now
       //console.log(event.source.itemScope.modelValue);
 
       var moveSuccess, moveFailure;
