@@ -4,7 +4,7 @@
 
 'use strict';
 
-angular.module('myappApp').controller('NewCardController', ['$scope', '$modalInstance', 'column', function ($scope, $modalInstance, column) {
+angular.module('myappApp').controller('NewCardController', ['$scope', '$rootScope','$modalInstance', 'column', function ($scope, $rootScope, $modalInstance, column) {
 
   function initScope(scope) {
     scope.columnName = column.name;
@@ -23,6 +23,13 @@ angular.module('myappApp').controller('NewCardController', ['$scope', '$modalIns
   $scope.close = function () {
     $modalInstance.close();
   };
+
+  $scope.test = function () {
+    //$rootScope.$broadcast('rootScope:broadcast', 'Broadcast!'); // $rootScope.$on    
+    $scope.$parent.$broadcast('myCustomEvent', 'Data to send');
+
+  };
+
 
   initScope($scope);
 

@@ -7,13 +7,6 @@
         "is_top_level": true,
         "variables": {}
     },
-    "cordova-plugin-app-version": {
-        "source": {
-            "type": "git",
-            "url": "https://github.com/whiteoctober/cordova-plugin-app-version.git",
-            "subdir": "."
-        }
-    },
     "cordova.plugins.diagnostic": {
         "source": {
             "type": "git",
@@ -115,6 +108,15 @@
         "source": {
             "type": "registry",
             "id": "cordova-plugin-statusbar"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-app-version": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/whiteoctober/cordova-plugin-app-version.git",
+            "subdir": "."
         },
         "is_top_level": true,
         "variables": {}

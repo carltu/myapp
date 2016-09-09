@@ -3,7 +3,7 @@
 
 'use strict';
 
-angular.module('myappApp').controller('KanbanController', ['$scope', 'BoardService', 'BoardDataFactory', function ($scope, BoardService, BoardDataFactory) {
+angular.module('myappApp').controller('KanbanController', ['$scope', '$rootScope','BoardService', 'BoardDataFactory', function ($scope, $rootScope, BoardService, BoardDataFactory) {
 
   $scope.kanbanBoard = BoardService.kanbanBoard(BoardDataFactory.kanban);
 
@@ -68,5 +68,18 @@ angular.module('myappApp').controller('KanbanController', ['$scope', 'BoardServi
   $scope.addNewCard = function (column) {
     BoardService.addNewCard($scope.kanbanBoard, column);
   }
+
+  $scope.$on('rootScope:broadcast', function (event, data) {
+    console.log(data); // 'Emit!'
+
+  });
+
+
+  //
+  $scope.$on('myCustomEvent', function (event, data) {
+    console.log(data); // 'Emit!'
+
+  });
+
 }]);
 

@@ -22,8 +22,6 @@ angular.module('myappApp')
       PROTECT: 3
     };
 
-  // add new changes now
-  //just want to see what happens in github
 	$scope.takePicture = function() {
       var options = {
         quality : 50,

@@ -7,9 +7,6 @@
         "files": {}
     },
     "installed_plugins": {
-        "cordova-plugin-app-version": {
-            "PACKAGE_NAME": "com.carl.myapp"
-        },
         "cordova-plugin-camera": {
             "PACKAGE_NAME": "com.carl.myapp"
         },
@@ -35,6 +32,9 @@
             "PACKAGE_NAME": "com.carl.myapp"
         },
         "org.apache.cordova.statusbar": {
+            "PACKAGE_NAME": "com.carl.myapp"
+        },
+        "cordova-plugin-app-version": {
             "PACKAGE_NAME": "com.carl.myapp"
         }
     },
