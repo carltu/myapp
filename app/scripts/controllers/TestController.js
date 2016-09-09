@@ -19,9 +19,13 @@ angular.module('myappApp')
       {"id": 4, "name": "column four"},
       {"id": 5, "name": "column five"},
       {"id": 6, "name": "column six"},
-      {"id": 7, "name": "column seven"}
+      {"id": 7, "name": "column last"}
 
     ];
+
+    var car = 'test';
+    var khris = 'another test'
+
 
 
   }

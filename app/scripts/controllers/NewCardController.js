@@ -27,7 +27,7 @@ angular.module('myappApp').controller('NewCardController', ['$scope', '$rootScop
   $scope.test = function () {
     //$rootScope.$broadcast('rootScope:broadcast', 'Broadcast!'); // $rootScope.$on    
     $scope.$parent.$broadcast('myCustomEvent', 'Data to send');
-
+          
   };
 
 
