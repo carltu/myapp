@@ -24,7 +24,7 @@ angular.module('myappApp')
     ];
 
     var car = 'test';
-    var khris = 'another test'
+    var khris = 'another'
 
 
 
