@@ -26,6 +26,7 @@ angular.module('myappApp')
     var car = 'test';
     var khris = 'another'
     var git = 'test git'
+    var sourceTest ='my test'
   }
 
   init();
