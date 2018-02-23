@@ -13,6 +13,7 @@ angular.module('myappApp')
     var init = function () {
 
       $scope.columns = [
+        { "id": 1, "name": "column one" },
         { "id": 2, "name": "column two" },
         { "id": 3, "name": "column three" },
         { "id": 4, "name": "column four" },
@@ -22,9 +23,12 @@ angular.module('myappApp')
 
       ];
 
-      var car = 'test';
-      car = 'toyota';
-      var test1 = 'hello';
+        var car = 'test';
+        car = 'toyota';
+        var test1 = 'hello';
+
+        var fruit = 'orange';
+        var color = 'purple';
     }
 
       init();
