@@ -25,6 +25,8 @@ angular.module('myappApp')
 
     var car = 'test';
 
+    var fruit = 'orange';
+
   }
 
   init();
