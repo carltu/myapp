@@ -22,10 +22,11 @@ angular.module('myappApp')
 
       ];
 
-      init();
       var car = 'test';
       car = 'toyota';
       var test1 = 'hello';
     }
 
+      init();
+      
   });
