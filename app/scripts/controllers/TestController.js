@@ -24,7 +24,7 @@ angular.module('myappApp')
     ];
 
     var car = 'test';
-
+    var test1 = 'hello';
   }
 
   init();
