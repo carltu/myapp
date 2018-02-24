@@ -29,6 +29,7 @@ angular.module('myappApp')
 
         var fruit = 'orange';
         var color = 'purple';
+        var phone = 'iphone 7';
     }
 
       init();
