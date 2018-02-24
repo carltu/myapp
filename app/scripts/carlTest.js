@@ -3,4 +3,7 @@ function test() {
     var this_is_my_test = '';
 
     var platform = 'macbook';
+
+    var platform2 = 'windows';
+
 }
