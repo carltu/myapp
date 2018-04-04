@@ -1,2 +1,2 @@
-var name1 = 'new file1';
-var name2 = 'master file1';
+var name3 = 'file1 name 3';
+var name4 = 'file1 name 4';
