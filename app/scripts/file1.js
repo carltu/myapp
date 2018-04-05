@@ -2,7 +2,11 @@ var name22 = 'file1 name 2';
 var name33 = 'file1 name 3';
 var name44 = 'file1 name 4';
 
+<<<<<<< HEAD
 function (message) {
+=======
+function(message) {
+>>>>>>> master
     $timeout(function() {
       // iOS permission issue
       if (message === 'has no access to assets') {
@@ -11,6 +15,7 @@ function (message) {
       else {
         $cordovaDialogs.alert(message, null, 'Camera');
       }
+<<<<<<< HEAD
 
       $scope.imageTypeEnum = {
         MODEL: 1,
@@ -26,3 +31,7 @@ function (message) {
 var name22 = 'file1 name 2';
 var name33 = 'file1 name 3';
 var name44 = 'file1 name 4';
+=======
+    }, 0);
+  });
+>>>>>>> master
