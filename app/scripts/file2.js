@@ -4,3 +4,5 @@ var name3 = 'file1 name 3';
 var name4 = 'file1 name 4';
 var name5 = 'file1 name 5';
 var name6 = 'file1 name 6';
+var name7 = 'file1 name 7';
+var name8 = 'file1 name 8';
