@@ -1,7 +1,6 @@
 function test() {
     $timeout(function() {
-
-    
+   
     /*comment*/
     $scope.imageTypeEnum = {
         MODEL: 1,
