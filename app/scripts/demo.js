@@ -1,4 +1,4 @@
-var test = 'this is demo';
-var david = 'david';
-var carl= '';
-var test2 = 'this is demo #2';
+
+// i should get a confilict here
+var vivian = 'this is a new merging test for an old file';
+
