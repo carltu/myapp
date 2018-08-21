@@ -5,6 +5,7 @@ var test = 'for my merging test origianl';
 var vivian = 'this is a new merging test ';
 var vivian2 = 'this is a new merging test for an old file';
 
+var newVar = 'robbie';
 
 
 
