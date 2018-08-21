@@ -8,4 +8,10 @@ function test2() {
 
     var platform = 'macbook';
     var newVar = 'new Var';
+
+
+
+   var test = 'this is demo';
+var david = 'david';
+var carl= '';
 }
