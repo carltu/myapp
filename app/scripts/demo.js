@@ -5,8 +5,10 @@ var test = 'for my merging test origianl';
 var vivian = 'this is a new merging test ';
 var vivian2 = 'this is a new merging test for an old file';
 
+var kevin = 'kevin';
 var newVar = 'robbie';
 var newVar2 = 'carl';
 var newVar3 = 'carl 2';
 var newVar4 = 'robbie 2';
+var kevin2 = 'kevin2';
 
