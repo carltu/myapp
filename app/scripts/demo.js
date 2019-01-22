@@ -8,5 +8,5 @@ var vivian2 = 'this is a new merging test for an old file';
 var newVar = 'robbie';
 var newVar2 = 'carl';
 var newVar3 = 'carl 2';
-
+var newVar4 = 'robbie 2';
 
