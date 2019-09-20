@@ -1,9 +1,1 @@
-node_modules
-dist
-.tmp
-.sass-cache
-bower_components
-platforms/**/
-www/*
-!www/config.xml
-!www/res
+*.config
