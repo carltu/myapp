@@ -1,3 +1,5 @@
 hello this is test one
 i am adding new text here
 adding the third line for testing
+' 09/21/2017    Phuong Nguyen       11580 - Fix the error of invalid @job_id when page load with invalid job_id from query string.
+' 09/21/2017    Phuong Nguyen       11580 - Set epoDropdown selected value from User Preference of ddlDefaultShowEpoOnly in UserProfile2.aspx
