@@ -1,3 +1,5 @@
 hello this is test one
 i am adding new text here
 adding the third line for testing
+' 10/11/2016    Rick Donaldson      11035 Removed 10887 fix - issue now fixed in Clean.css
+' 07/25/2016    David Bailey        10887 Fixed "No Updates Allowed" production bug
