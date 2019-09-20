@@ -1,2 +1,4 @@
 hello this is test two
 I am adding new text here but I will not roll back this one!
+' 09/15/2017    Jennifer Perry      11580 - Changed capitalized booleans in call to Page_ClientValidate to pass lower case booleans
+' 09/05/2017    Phuong Nguyen       11580 - Add property EpoDocType (String) for GetTasks to get all tasks with this EpoDocType
