@@ -2,3 +2,5 @@ hello this is test two
 I am adding new text here but I will not roll back this one!
 ' 09/15/2017    Jennifer Perry      11580 - Changed capitalized booleans in call to Page_ClientValidate to pass lower case booleans
 ' 09/05/2017    Phuong Nguyen       11580 - Add property EpoDocType (String) for GetTasks to get all tasks with this EpoDocType
+' 08/30/2017    Phuong Nguyen       11580 - Set supplierTextbox and taskNameTextbox to Static ClientIDMode to fix free form search
+' 07/25/2017    Phuong Nguyen       11580 - Free form search for Supplier Name and Task Name with minimum 3 characters
