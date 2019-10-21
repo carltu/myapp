@@ -2,3 +2,5 @@ hello this is test one
 i am adding new text here
 ' 09/28/2017    Phuong Nguyen       11580 - TTP 12329 - Allow white space for wildcard search of Supplier Name and Task Name
 ' 09/26/2017    Rick Donaldson      11580 - Add EPODocType parameter to JobManagementExpress.GetTasks; add supplier name & task name search validation to all update buttons
+
+test by carl
