@@ -4,3 +4,4 @@ i am adding new text here
 ' 09/26/2017    Rick Donaldson      11580 - Add EPODocType parameter to JobManagementExpress.GetTasks; add supplier name & task name search validation to all update buttons
 
 test by carl
+changes made in carl branch
