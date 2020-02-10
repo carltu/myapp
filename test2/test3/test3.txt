@@ -1,8 +1,6 @@
 hello this is test 3
 this is test 3
 
-this is coming from the master branch
-
 add new text for the second commit
 and push the changes to server
 
