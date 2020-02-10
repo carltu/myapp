@@ -3,3 +3,6 @@ this is test 3
 
 add new text for the second commit
 and push the changes to server
+
+add new text for the third commit again
+and push the changes to server for the third commit again
