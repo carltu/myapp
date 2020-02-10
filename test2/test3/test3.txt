@@ -6,3 +6,6 @@ and push the changes to server
 
 add new text for the third commit again
 and push the changes to server for the third commit again
+
+add new text from the 4th commit.
+just added new changes to the master branch
